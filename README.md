@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## How to source code move to GitHub:
+
+1. ng serve
+2. git init
+3. git add ./
+4. git config user.name ""
+5. git config user.email ""
+6. git commit -m "first commit"
+7. git branch -M main
+8. git remote add origin https://github.com/RamuDhanush/FirstAngularApp.git
+9. git push -u origin main
+
