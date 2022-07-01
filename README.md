@@ -39,3 +39,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 8. git remote add origin https://github.com/RamuDhanush/FirstAngularApp.git
 9. git push -u origin main
 
+
+## Deploy the application in GitHub:
+
+1. ng build --output-path docs --base-href /repository-name/
+2. Once the build completes, we will find a new folder named docs and inside this folder found -> HTML file, a few JS files, and a few other files. This is the output of the build.
+3. git add ./
+4. git commit -m "Included docs folder and build files"
+5. git branch -M main
+6. git push -u origin main
+7. Go to corresponding GitHub repository, switch to the Settings tab
+8. Under "Code and automation", find "Pages" to configure the GitHub Pages in left side menus
+9. Fill the Source section
+10. Set main as the branch, choose /docs in the second dropdown, and click Save.
+11. We have successfully hosted our Angular app in GitHub Pages
+12. After a few minutes, reload the page. You will find that the message is changed from “Your site is ready to be published at…” to “Your site is published at…”
+13. Browse the https://<username>.github.io/<repositoryname>
+
+
