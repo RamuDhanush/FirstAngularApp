@@ -54,6 +54,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 10. Set main as the branch, choose /docs in the second dropdown, and click Save.
 11. We have successfully hosted our Angular app in GitHub Pages
 12. After a few minutes, reload the page. You will find that the message is changed from “Your site is ready to be published at…” to “Your site is published at…”
-13. Browse the https://<username>.github.io/<repositoryname>
+13. Browse the https://username.github.io/repositoryname
 
 
